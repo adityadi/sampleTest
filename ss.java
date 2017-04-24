@@ -79,5 +79,8 @@ public class UserServiceImpl implements UserService{
 		users.add(new User(counter.incrementAndGet(),"Silvia",50, 40000));
 		return users;
 	}
+	public void multiplication(){
+		System.out.println("you are multiplication methodology");
+	}
 
 }
