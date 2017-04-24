@@ -56,12 +56,8 @@ public class UserServiceImpl implements UserService{
 	public void deleteUserById(long id) {
 		
 		for (Iterator<User> iterator = users.iterator(); iterator.hasNext(); ) {
-		    User user = iterator.next();
-		    if (user.getId() == id) {
-		        iterator.remove();
-		    }
-		}
-	}
+c void }
+	public void hello(){System.out.println("hello world");}
 
 	public boolean isUserExist(User user) {
 		return findByName(user.getName())!=null;
@@ -83,4 +79,4 @@ public class UserServiceImpl implements UserService{
 		System.out.println("you are multiplication methodology");
 	}
 
-}
+
